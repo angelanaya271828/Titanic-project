@@ -1,6 +1,13 @@
 
 # Pruebas locales temporales
+notebooks/prueba.py
 prueba.py
+
+# Artefactos y bases de datos locales de MLFlow
+mlruns/
+*.db
+mlflow.db
+confusion_matrix.png
 
 # Data
 /data/
@@ -193,3 +200,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
