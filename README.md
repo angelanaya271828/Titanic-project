@@ -1,6 +1,6 @@
 
 
-# 🚢 Titanic MLOps Pipeline: Optimización y tracking modular
+# 🚢 Titanic Project: Optimización y tracking modular
 
 Este proyecto implementa un pipeline de Machine Learning (ML) end-to-end para el clásico problema del Titanic, el cual fue refactorizado buscando seguir las mejores prácticas de **MLOps**. 
 
@@ -17,6 +17,7 @@ Dicho código fue refactorizado en los siguientes archivos:
 * `titanic_module/modeling/train.py`: Orquestador principal que inyecta dependencias, ensambla el pipeline unificado de `scikit-learn` y registra los experimentos en MLFlow.
 
 Es importante señalar que la etapa inicial de Análisis Exploratorio de los datos (EDA) se encuentra en `notebooks/1.0-aaaa-Initial EDA.ipynb`.
+
 ---
 
 ## ⚙️ Configuración del entorno y dependencias
